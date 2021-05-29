@@ -6,6 +6,7 @@
         <%= simple_form_for @list do |f| %>
           <%= f.input :name, placeholder: 'Drama' %>
           <%= f.submit class: 'btn btn-flat' %>
+          <%= link_to 'back', root_path, class: 'btn btn-warning' %>
         <% end %>
       </div>
     </div>
